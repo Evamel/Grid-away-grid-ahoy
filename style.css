@@ -223,12 +223,30 @@ button:hover{
 }
 
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 300px) {
+    body{
+        background-color: lightslategray;
+    }
     nav{
         display: block;
     }
-
     main{
         display: block;
     }
+}
+  
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    body{
+        background-color: lightslategray;
+    }
+    nav{
+        display: block;
+    }
+    main{
+        display: block;
+    }
+}
+  
+@media screen and (min-width: 768px) {
+   
 }
