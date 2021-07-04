@@ -1,0 +1,234 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:gray;
+}
+
+h1{
+    color:gainsboro;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+h2{
+    color:gray;
+    font-size: 20px;
+}
+
+p{
+    color:powderblue;
+    padding: 10px;
+    text-align: justify;
+    font-size: small;
+}
+
+nav{
+    display: grid;
+    grid: repeat(4);
+}
+
+main{
+    display: grid;
+    grid: repeat(4);
+}
+
+hr{
+    width: 50px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.trilogy{
+    display: inline-block;
+    background-color:darkslategray;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px silver;
+    box-shadow: 2px 2px 4px #7d7d7d;
+    padding: 50px;
+    margin: 20px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.img-anneau{
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+}
+
+.fellowship{
+    display: inline-block;
+    background-color:darkslategray;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px silver;
+    box-shadow: 2px 2px 4px #7d7d7d;
+    padding: 50px;
+    margin: 20px;
+    grid-column: 2;
+    grid-row: 1;
+}
+.img-fellowship{
+    height: 100px;
+    border-radius: 10px;
+}
+
+.TT{
+    display: inline-block;
+    background-color:darkslategray;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px silver;
+    box-shadow: 2px 2px 4px #7d7d7d;
+    padding: 50px;
+    margin: 20px;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.img-tt{
+    height: 100px;
+    border-radius: 10px;
+}
+
+.return{
+    display: inline-block;
+    background-color:darkslategray;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px silver;
+    box-shadow: 2px 2px 4px #7d7d7d;
+    padding: 50px;
+    margin: 20px;
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.img-return{
+    height: 100px;
+    border-radius: 10px;
+}
+
+.trilogy-hbt{
+    display: inline-block;
+    background-color:darkslategray;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px silver;
+    box-shadow: 2px 2px 4px #7d7d7d;
+    padding: 50px;
+    margin: 20px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.img-anneau{
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+}
+
+.journey{
+    display: inline-block;
+    background-color:darkslategray;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px silver;
+    box-shadow: 2px 2px 4px #7d7d7d;
+    padding: 50px;
+    margin: 20px;
+    grid-column: 2;
+    grid-row: 1;
+}
+.img-fellowship{
+    height: 100px;
+    border-radius: 10px;
+}
+
+.smaug{
+    display: inline-block;
+    background-color:darkslategray;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px silver;
+    box-shadow: 2px 2px 4px #7d7d7d;
+    padding: 50px;
+    margin: 20px;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.img-tt{
+    height: 100px;
+    border-radius: 10px;
+}
+
+.armies{
+    display: inline-block;
+    background-color:darkslategray;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px silver;
+    box-shadow: 2px 2px 4px #7d7d7d;
+    padding: 50px;
+    margin: 20px;
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.img-return{
+    height: 100px;
+    border-radius: 10px;
+}
+
+button{
+        background-color:slategray;
+        border: 1px;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 40px;
+}
+button:hover{
+    background-color: silver;
+    box-shadow: 2px 2px 4px #7d7d7d;
+    cursor: grab;
+}
+
+.tooltip:before {
+    content: attr(data-text);
+    position:absolute;
+    width: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    color: darkslategrey;
+    text-align:center;
+    display:none;
+  }
+
+.tooltip:hover:before{
+    display: block;
+}
+
+
+@media screen and (max-width: 768px){
+    nav{
+        display: block;
+    }
+
+    main{
+        display: block;
+    }
+}
